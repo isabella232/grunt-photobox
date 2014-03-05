@@ -10,7 +10,7 @@
 
 var fs           = require( 'fs' ),
     path         = require( 'path' ),
-    phantomjs    = require( 'phantomjs' ),
+    phantomjs    = require( './phantomjs' ),
     phantomPath  = phantomjs.path;
 
 /**
